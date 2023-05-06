@@ -9,6 +9,11 @@
 body {
     background-color: #5ac95a;
 }
+div {
+    padding: 10px;
+    text-align: center;
+}
+
 h1 {
     font-weight: bolder;
     margin: 30px;
