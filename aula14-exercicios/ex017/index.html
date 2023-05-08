@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora do Dia</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-        <h1>título</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
-        <div>
-           campo1
+        <div id="campo"> 
+            <p>
+                <label for="inum">Número:</label>
+                <input type="number" name="num" id="inum">
+                <input type="button" value="Gerar Tabuada" onclick="Gerar()">
+            </p>
         </div>
         <div>
-          campo2
+            <select name="res" id="ires" size="10">
+                <option value=""> &#x1F446 Digite um número acima &#x1F446</option>
+            </select>
         </div>
     </section>
     <footer>
