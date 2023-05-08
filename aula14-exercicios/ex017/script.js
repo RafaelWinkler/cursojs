@@ -12,6 +12,7 @@ function Gerar() {
             let tab = n * c
             let item = document.createElement('option')
             item.text = `${n} X ${c} = ${tab}`
+            item.value =`res${c}`
             res.appendChild(item)
         }
     }
