@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body {
-    width: 100vw;
+    width: 100vw; 
     background-color: #5ac95a;
 }
 div {
@@ -18,7 +18,7 @@ h1 {
     font-weight: bolder;
     margin: 30px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.450);
-    font-size: 3em;
+    font-size: 2em;
 }
 header {
     color: white;
@@ -32,7 +32,10 @@ section {
     max-width: 500px;
     box-shadow: 3px 3px 6px #00000073;
 }
-
+#flista {
+    margin: 15px 0px;
+    width: 150px;
+}
 
 footer {
     color: #000000;
